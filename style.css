@@ -11,7 +11,7 @@ body {
   margin: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
   #title {
     font-size: 90px;
   }
@@ -25,7 +25,7 @@ body {
   color: #241a10;
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
   #subtitle {
     font-size: 10px;
   }
@@ -37,6 +37,12 @@ body {
   font-size: 20px;
 }
 
+@media all and (max-width: 768px) {
+  #image {
+    max-width: 90vw;
+  }
+}
+
 #image {
   max-width: 40vw;
   margin: auto;
@@ -45,13 +51,13 @@ body {
   box-shadow: 10px 10px 5px #0000007a;
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
   #img-caption {
     font-size: 10px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
   #tribute-info {
     padding: 20px 0px 20px 0px;
     font-size: 2em;
