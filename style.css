@@ -11,12 +11,6 @@ body {
   margin: auto;
 }
 
-@media all and (max-width: 768px) {
-  #title {
-    font-size: 90px;
-  }
-}
-
 #title {
   font-family: 'Sacramento', cursive;
   margin: 5px;
@@ -26,8 +20,8 @@ body {
 }
 
 @media all and (max-width: 768px) {
-  #subtitle {
-    font-size: 10px;
+  #title {
+    font-size: 50px;
   }
 }
 
@@ -38,8 +32,8 @@ body {
 }
 
 @media all and (max-width: 768px) {
-  #image {
-    max-width: 90vw;
+  #subtitle {
+    font-size: 15px;
   }
 }
 
@@ -52,19 +46,14 @@ body {
 }
 
 @media all and (max-width: 768px) {
-  #img-caption {
-    font-size: 10px;
+  #image {
+    max-width: 90vw;
   }
 }
 
 @media all and (max-width: 768px) {
-  #tribute-info {
-    padding: 20px 0px 20px 0px;
-    font-size: 2em;
-    width: 95vw;
-    margin: auto;
-    text-align: left;
-    color: #241a10;
+  #img-caption {
+    font-size: 15px;
   }
 }
 
@@ -75,6 +64,17 @@ body {
   margin: auto;
   text-align: left;
   color: #241a10;
+}
+
+@media all and (max-width: 768px) {
+  #tribute-info {
+    padding: 0px;
+    font-size: 1.2em;
+    width: 95vw;
+    margin: auto;
+    text-align: left;
+    color: #241a10;
+  }
 }
 
 a {
